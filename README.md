@@ -150,16 +150,6 @@ Key price milestones:
 - 📉 **2022-2023 Correction**: Market consolidation around $15,000-$30,000
 - 🌙 **2025 Surge**: Dramatic rise to over $100,000
 
-### Statistical Distribution Analysis
-![OHLC Box Plots](images/ohlc_boxplots.jpg)
-![Close and Volume Box Plots](images/close_volume_boxplots.jpg)
-
-The box plot analysis shows:
-- **Price Distribution**: Open, High, Low, and Close prices show similar distributions with outliers above $100k
-- **Volume Extremes**: Significant outliers in trading volume (up to 40,000+ units)
-- **Market Behavior**: Typical cryptocurrency volatility patterns with long tails
-- **Data Quality**: Clean data with expected financial time series characteristics
-
 
 ## 🎯 Usage Options
 
