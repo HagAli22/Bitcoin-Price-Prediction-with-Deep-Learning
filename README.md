@@ -66,6 +66,15 @@ bitcoin_price_prediction/
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
 ```
+## Models Implemented & Performance
+
+## 📊 Model Comparison Table
+
+| Model | Test R² | Validation R² | Test Loss | Val Loss | Notes |
+|-------|---------|---------------|-----------|----------|-------|
+| 🧠 CNN | 0.936 | 0.693 | 0.002 | 0.001 | Strong on patterns, overfitting signs |
+| 📈 LSTM | 0.910 | 0.870 | 0.003 | 0.0002 | Best generalization |
+| 📉 GRU | 0.862 | 0.737 | 0.005 | 0.0005 | Lightweight & reliable |
 
 ## 🚀 Quick Start - Web Application
 
