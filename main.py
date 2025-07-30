@@ -13,9 +13,9 @@ from tensorflow.keras.losses import MeanSquaredError
 
 # Loading scaleres and model
 def load_resources():   
-    CNN_model = joblib.load('btc_cnn_model.pkl')
-    LSTM_model  = load_model('btc_lstm_model.h5', custom_objects={'mse': MeanSquaredError()})
-    GRU_model = load_model('btc_gru_model.h5', custom_objects={'mse': MeanSquaredError()})
+    CNN_model = joblib.load('models/cnn/saved_models/btc_cnn_model.pkl')
+    LSTM_model  = load_model('models/lstm/saved_models/btc_lstm_model.h5', custom_objects={'mse': MeanSquaredError()})
+    GRU_model = load_model('models/gru/saved_models/btc_gru_model.h5', custom_objects={'mse': MeanSquaredError()})
     #V_model = joblib.load('btc_voting_model.pkl')
     scaler = joblib.load('scaler.pkl')
     return CNN_model,LSTM_model,GRU_model,   scaler
